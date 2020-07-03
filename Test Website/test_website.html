@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> The Test Website </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> /*CSS goes here, in the style section*/
+body {
+	font-family: Arial, Times New Roman, Comic Sans;
+}
+
+.banner {
+	padding: 80px;
+	text-align: center;
+	background: #99ff99; /* another nice green */
+	color: black;
+}
+
+.header  { /*.header, .banner /*this lets you combine both div under same CSS*/ */
+	padding: 80px;
+	text-align: center;
+	background: #1abc9c; /* a nice green */
+	color: white; /* text color */
+}
+
+.header h1{
+	font-size: 40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="banner">
+	<h1>Test Website for Raspberry Pi </h1>
+	<p>Website created for basic networking and pentesting for Jacque and Stephen</p>
+</div>	
+
+<div class="header">
+	<h1> The Website </h1>
+	<p> Website created for basic networking and pentesting for Jacque and Stephen, but this time in a special header </p>
+</div>
+
+<div class="navbag">
+	<a href="test_page1.html">1</a>
+	<a href="2">Link</a>
+	<a href="#">Link</a>
+	<a href="3" class="right">Link</a>
+</div>
+</body>
+</html>
